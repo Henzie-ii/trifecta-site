@@ -83,6 +83,7 @@ a{
    background-color: #6d6d5a74; 
 }
 
+
 /*Hero-section*/
 .hero-section{
    background: linear-gradient(#46462fc1, #6d6d5a37), url("../thumbnails/culture.jpg");
@@ -126,6 +127,8 @@ a{
    background-color:#91918b;
 }
 
+
+/*catalog section*/
 .catalog-wrapper{
    display: grid;
    grid-template-columns: 330px 330px 330px;
@@ -173,6 +176,40 @@ a{
 }
 .catalog-btn button:hover{
    background-color: #79794f;
+}
+
+/*rastaurant section*/
+.rastaraunt-section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top:10em ;
+}
+.place{
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+}
+.place-img img{
+   width: 20em;
+   height: 500px;
+}
+.place-content{
+   width: 400px;
+}
+.place-content p,
+.place-content h3{
+   padding: .5em;
+}
+.place-content a{
+   color: #1212bdc1;
+   margin-left: .5em;
+   transition:  ease;
+}
+.place-content a:hover{
+   color: #020225c1;
+   text-decoration: underline;
 }
 
 
