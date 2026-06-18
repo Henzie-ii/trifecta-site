@@ -205,7 +205,7 @@ a{
 .place-content a{
    color: #1212bdc1;
    margin-left: .5em;
-   transition:  ease;
+   transition: .4s ease;
 }
 .place-content a:hover{
    color: #020225c1;
@@ -213,7 +213,34 @@ a{
 }
 
 
-
+/*Why chhose Us section*/
+.choice-section{
+   margin-top: 10em;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.choice-wrapper{
+   display: grid;
+   grid-template-columns: 300px 300px 300px;
+   justify-content: center;
+   gap:2.5em;
+}
+.choice-card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color:#c7c79a;
+   padding: 1.5em;
+   border-radius: 20px;
+}
+.choice-card img{
+   width: 5em;
+}
+.choice-card h4,
+.choice-card p{
+   font-family: sans-serif;
+}
 
 
 
