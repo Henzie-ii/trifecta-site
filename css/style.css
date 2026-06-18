@@ -3,12 +3,92 @@
  =========================
  */
 
+ul{
+   list-style: none;
+}
 
+a{
+   text-decoration: none;
+}
 
 
 /*===============================
-   Landing Page syle team 1 work
+   Landing Page style team 1 work
 ================================*/
+
+/**Navigation Bar*/
+.landing-page{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.nav-section{
+   background-color: #787845ee;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: sticky;
+   top: 0;
+   z-index: 100;
+}
+.nav-logo{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   margin-left: 2rem;
+}
+.nav-logo img{
+   width: 4em;
+}
+.nav-logo a{
+   font-size: 1.5rem;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: cursive;
+}
+
+.nav-items{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+.nav-link a{
+   color: white;
+   font-size:1rem;
+   padding: .5rem;
+   transition: background-color .4s ease;
+   border: none;
+   border-radius: 20px;
+}
+.nav-link a:hover{
+   background-color:#6d6d5a74;
+}
+
+.auth-items{
+   display: flex;
+   align-items: center;
+   margin-right: 2.5rem;
+   gap: 1rem;
+}
+.auth-link a{
+   color: white;
+   font-size: 1rem;
+   padding: .5rem;
+   border: none;
+   border-radius: 20px;
+   transition: background-color .4s ease;
+}
+.auth-link a:hover{
+   background-color: #6d6d5a74; 
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -85,7 +165,7 @@ login and sign up style team 2 work
 }
 
 
-
+/*sign up form*/
 .signup-logo{
    display: flex;
    align-items: center;
