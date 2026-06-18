@@ -226,6 +226,12 @@ MENU AND Category style  team 3 work
 order style team 4 work
 =============================*/
 
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
 
 .order-form {
   max-width: 400px;
