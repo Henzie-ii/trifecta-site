@@ -11,8 +11,16 @@
     </header>
     <main>
         <form action="submit_order.php" method="post" class="Order form">
-            
+          <label for="name">Customer Name:</label>
+          input type="text" id="name" name="customerName" required>
+          <label for="phone">Phone number:</label>
+          <input type="text" id="item" name="itemname" required>
+          <label for="item">Menu Item:</label>
+          <input type="text" id="item" name="itemName" required>
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" required>
         </form>
+        <button type="submit">Place orders</button>
     </main>
 </body>
 </html>
