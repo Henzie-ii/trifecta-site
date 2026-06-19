@@ -1,8 +1,11 @@
 document.addEventListener ('DOMContentLoaded', () =>{
     const aboutLink = document.getElementById('about-us')
-    const contactLink = document.getElementById('about-section');
+    const aboutSection = document.getElementById('about-section');
 
-    if(aboutLink && contactLink){
+    const contactLink = document.getElementById('contact-link')
+    const footerContact = document.getElementById('footer-contact')
+
+    if(aboutLink && aboutSection){
         aboutLink.addEventListener('click', function(event){
             event.preventDefault();
             contactLink.scrollIntoView({
@@ -13,4 +16,16 @@ document.addEventListener ('DOMContentLoaded', () =>{
         });
     }
 
+    if(contactLink && footerContact){
+        contactLink.addEventListener('click', function(event){
+            event.preventDefault();
+            footerContact.scrollIntoView({
+                behavior:'smooth',
+                block:'start'
+            });
+        });
+
+    }
+
 });
+
