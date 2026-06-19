@@ -129,12 +129,21 @@ a{
 
 
 /*catalog section*/
+.catalog-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.catalog-section h3{
+   margin-top: 10em;
+   padding: 1em;
+}
 .catalog-wrapper{
    display: grid;
    grid-template-columns: 330px 330px 330px;
    justify-content: center;
    gap: 3.5em;
-   padding-top:10em;
+   padding-top:em;
 }
 .catalog-card{
    display: flex;
