@@ -256,6 +256,31 @@ a{
    border: none;
 }
 
+/*About Us*/
+.about-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 10em;
+}
+.about-wrapper{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 650px;
+    background-color: #b6bd8f55;
+    border-radius: 20px;
+    padding:1.5em;
+}
+.about-wrapper h4,
+.about-wrapper p{
+   font-family: sans-serif;
+}
+.span{
+   font-family: cursive;
+}
+
+
 
 
 
