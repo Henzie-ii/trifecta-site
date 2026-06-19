@@ -334,7 +334,7 @@ a{
 }
 .side-icon{
    width: 1em;
-   transition: .4s ease;
+   
 }
 .side-icon a:hover{
    transform: translateX(-3px);
@@ -346,6 +346,16 @@ a{
 .link-icons img{
    width: 2em;
 }
+.icon-card{
+   display: flex;
+   gap: 1em;
+   transition: .4s ease;
+}
+.icon-card:hover{
+   transform: translateX(-5px);
+   text-decoration: solid;
+}
+
 
 
 
