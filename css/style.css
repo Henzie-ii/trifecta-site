@@ -20,7 +20,7 @@ a{
 .body-section{
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 1fr auto 1fr;
+   grid-template-rows: 1fr auto 300px;
    min-height: 100vh;
 }
 .nav-section{
@@ -278,6 +278,73 @@ a{
 }
 .span{
    font-family: cursive;
+}
+
+/*footer section*/
+.footer-section{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 2em;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 10em;
+   background-color: #787845;
+   padding: .5em;
+}
+.footer-logo img{
+   width: 4.5em;
+}
+.footer-card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top:2em;
+   margin-left: 2em;
+   padding: .5em;
+}
+.footer-card button{
+   width: 10em;
+   padding: .5em;
+   background-color: #b1b198;
+   border: none;
+   border-radius: 10px;
+   margin-top: 5px;
+}
+.footer-card input{
+   width: 20em;
+   padding: .5em;
+}
+.footer-logo{
+   display: flex;
+   gap: 1em;
+   align-items: center;
+}
+.footer-card p,
+.footer-card h2,
+.footer-card h3{
+   color: white;
+}
+.footer-icons{
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+}
+.footer-icons a{
+   color: white;
+}
+.side-icon{
+   width: 1em;
+   transition: .4s ease;
+}
+.side-icon a:hover{
+   transform: translateX(-3px);
+}
+.link-icons{
+   display: flex;
+   gap: 1em;
+}
+.link-icons img{
+   width: 2em;
 }
 
 
