@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order form</title>
-    <link rel="stylesheet" href="style.css">
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Place your orders</h1>
-    </header>
+  <header>
+    <h1>Place your orders</h1>
+  </header>
 
-    <main>
-
-        <form action="submit_order.php" method="post" class="order-form">
+  <main>
+    <form action="submit_order.php" method="post" class="order-form">
       <label for="name">Customer Name:</label>
       <input type="text" id="name" name="customerName" required>
 
@@ -29,7 +26,7 @@
       <input type="number" id="quantity" name="quantity" min="1" required>
 
       <button type="submit">Place Order</button>
-      </form>
-    </main>
+    </form>
+  </main>
 </body>
 </html>
