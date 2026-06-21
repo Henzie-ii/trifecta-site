@@ -1,6 +1,6 @@
 document.addEventListener ('DOMContentLoaded', () =>{
-    const aboutLink = document.getElementById('about-us')
-    const aboutSection = document.getElementById('about-section');
+    const aboutLink = document.getElementById('about-link')
+    const aboutSection = document.getElementById('about-section')
 
     const contactLink = document.getElementById('contact-link')
     const footerContact = document.getElementById('footer-contact')
@@ -8,7 +8,7 @@ document.addEventListener ('DOMContentLoaded', () =>{
     if(aboutLink && aboutSection){
         aboutLink.addEventListener('click', function(event){
             event.preventDefault();
-            contactLink.scrollIntoView({
+            aboutSection.scrollIntoView({
                 behavior:'smooth',
                 block:'start'
             });
