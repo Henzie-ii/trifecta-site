@@ -383,7 +383,7 @@ login and sign up style team 2 work
    display: flex;
    justify-content: center;
    background-color: grey;
-   height:400px;
+   height:430px;
    width: 350px;
    margin-top: 100px;
    border-radius: 20px;  
@@ -411,7 +411,7 @@ login and sign up style team 2 work
    gap: 2px;
 }
 .form-link p{
-   margin-right: 3em;
+   margin-right: 1.5em;
 }
 .form-link a{
    text-decoration: none;
@@ -429,10 +429,18 @@ login and sign up style team 2 work
    border: none;
    background-color: #305372e9;
    color: aliceblue;
-   transition:background-color .4s ease;  
+   transition:background-color .3s ease;  
 }
 .form-btn button:hover{
-   background-color:#dee2e67b ;
+   background-color:#1e1e1f7b ;
+}
+.sign-up-link a{
+   color: white;
+   margin-left: .5em;
+}
+.sign-up-link a:hover{
+   color: black;
+   transition: color .4s ease;
 }
 
 
